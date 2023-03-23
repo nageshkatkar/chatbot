@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="chat.png" type="image/x-icon">
+    <script src="jquery.min.js"></script>
+    <script src="chatbot-scripting.js"></script>
+</head>
+<body>
+    <div class="top_color"></div>
+    <div class="main_content">
+        <div class="head">
+            <img src="chat.png" alt="chatbot">
+            <span>Chatbot</span>
+            <img src="green tick.png" style="width: 25px; position: relative; top: -5px; left: -1px;" alt="green tick">
+        </div>
+        <div class="chatting" id="chatPlace">
+            <ol></ol>
+        </div>
+        <div class="foot">
+            <form>
+                <input type="search" placeholder="Type a message..." id="input">
+                <button id="chat">SEND</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
